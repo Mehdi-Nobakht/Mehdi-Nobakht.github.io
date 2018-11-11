@@ -1,3 +1,78 @@
+.posts {
+  max-width: 38rem;
+  padding: 1.4rem 0.8rem;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto; }
+  @media (min-width: 38rem) {
+    .posts {
+      margin-top: 0;
+      margin-left: 20%;
+      padding: 3%;
+      min-width: 80%;
+      height: 800px; } }
+
+.profile {
+  padding: 2%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .profile .img-circle {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 50%;
+    display: block;
+    margin: 1rem 1rem 1rem;
+    display: inline; }
+  .profile h3 {
+    height: auto;
+    margin-right: 4vw;
+    margin-top: 10vw;
+    width: 50%;
+    float: right;
+    color: #FFF; }
+  .profile p {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    color: #BDBDBD; }
+  .profile .social {
+    margin-left: 25vw;
+    height: auto;
+    width: 100%; }
+  @media (min-width: 38em) {
+    .profile {
+      position: fixed;
+      width: 20%;
+      height: 100%;
+      padding: 0; }
+      .profile img {
+        height: 140px;
+        width: 140px; }
+      .profile h3 {
+        text-align: center;
+        float: none;
+        width: 100%;
+        margin-top: -0.8em; }
+      .profile p {
+        margin-top: -1.3em;
+        font-size: 16px;
+        text-align: center;
+        letter-spacing: 2px; }
+      .profile .img-circle {
+        height: auto;
+        width: 55%;
+        margin-top: 25%;
+        margin-left: 24%; }
+      .profile .social {
+        position: absolute;
+        bottom: 0;
+        margin-left: 2vw; }
+        .profile .social a {
+          padding: 0;
+          margin-left: 0; } }
+
 /**
  * Reset some basic elements
  */

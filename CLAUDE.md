@@ -13,6 +13,18 @@ hugo server              # http://localhost:1313, live reload
 hugo --gc --minify       # build into public/
 ```
 
+### Publishing a change
+
+```sh
+git status                         # optional: review what changed (preview with hugo server first)
+git add -A
+git commit -m "Describe what you changed"
+git push                           # triggers the Pages build; live in about a minute
+gh run watch                       # optional: follow the build; exits non-zero if it fails
+```
+
+A failed build leaves the live site on the previous version. If `git push` is rejected with "fetch first" (e.g. after an edit in GitHub's web editor), run `git pull --rebase`, then `git push`. Pushing uses HTTPS through the `gh` login (`gh auth setup-git`), not SSH.
+
 Live at https://mehdi-nobakht.github.io. `origin` is `Mehdi-Nobakht/Mehdi-Nobakht.github.io`; pushing to `main` runs `.github/workflows/hugo.yml`, which builds and deploys to Pages (Pages source: GitHub Actions; the `github-pages` environment only allows `main`). `master` holds the retired Jekyll output as a backup; never deploy from `../jekyll/`. The workflow pins `HUGO_VERSION`; keep it in step with the local version.
 
 ## Structure

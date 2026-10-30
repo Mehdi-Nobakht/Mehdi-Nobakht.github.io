@@ -13,7 +13,7 @@ hugo server              # http://localhost:1313, live reload
 hugo --gc --minify       # build into public/
 ```
 
-Deploys via `.github/workflows/hugo.yml` on push to `main` (repo Settings → Pages → Source must be "GitHub Actions"). The workflow pins `HUGO_VERSION`; keep it in step with the local version.
+Live at https://mehdi-nobakht.github.io. `origin` is `Mehdi-Nobakht/Mehdi-Nobakht.github.io`; pushing to `main` runs `.github/workflows/hugo.yml`, which builds and deploys to Pages (Pages source: GitHub Actions; the `github-pages` environment only allows `main`). `master` holds the retired Jekyll output as a backup; never deploy from `../jekyll/`. The workflow pins `HUGO_VERSION`; keep it in step with the local version.
 
 ## Structure
 

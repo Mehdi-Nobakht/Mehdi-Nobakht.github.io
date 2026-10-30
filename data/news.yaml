@@ -2,7 +2,7 @@
 # Use "label" instead of date when only a semester or year is known (e.g. label: S2 2024).
 - label: S2 2024
   text: >-
-    Started lecturing at the School of Computer Science, University of Sydney, coordinating Mobile Computing (COMP4216/5216) and teaching Informatics: Data and Computation (DATA1002/1902).
+    Started lecturing at the School of Computer Science, University of Sydney, coordinating Mobile Computing (COMP4216/COMP5216) and teaching Informatics: Data and Computation (DATA1002/DATA1902).
 - date: 2023-10-30
   text: >-
     Presented two papers at CNSM '23 in Niagara Falls, Canada, on [integrated wired and wireless time-sensitive networking using SDN](https://doi.org/10.23919/cnsm59352.2023.10327872) and [priority-based scheduling for consistent network updates in SDN](https://doi.org/10.23919/cnsm59352.2023.10327840) (pUpdate).

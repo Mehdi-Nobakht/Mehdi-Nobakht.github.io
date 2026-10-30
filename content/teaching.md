@@ -2,11 +2,9 @@
 title: My Teaching
 ---
 
-My learners are undergraduate and postgraduate coursework students in computer science, data science and business analytics, often in mixed-level cohorts. Many are international, and experience ranges from professional developers to first-time programmers. Since 2024, I have coordinated and lectured Mobile Computing COMP4216/5216) and Web Application Development  (COMP4347/5347), lectured Data
-Structures and Algorithms (COMP9123) and Informatics: Data and Com-
-putation (DATA1002/1902), Data Visualisation for Managers (INFS6023), and taught Accounting Information Systems (INFS3110/INFS5000) and Advanced Analytics (QBUS3830).
+My learners are undergraduate and postgraduate coursework students in computer science, data science and business analytics, often in mixed-level cohorts. Many are international, and experience ranges from professional developers to first-time programmers.
 
-
+Since 2024, I have coordinated and lectured Mobile Computing (COMP4216/COMP5216) and Web Application Development (COMP4347/COMP5347), lectured Data Structures and Algorithms (COMP9123), Informatics: Data and Computation (DATA1002/DATA1902) and Data Visualisation for Managers (INFS6023), and taught Accounting Information Systems (INFS3110/INFS5000) and Advanced Analytics (QBUS3830).
 
 ## School of Computer Science, The University of Sydney
 

@@ -20,6 +20,10 @@
       }
     })();
   </script>
+  {{/* Hugo's built-in GA4 tag: emitted only in production builds (the Pages workflow), never under hugo server. */}}
+  {{ if and hugo.IsProduction site.Config.Services.GoogleAnalytics.ID }}
+  {{ partial "google_analytics.html" . }}
+  {{ end }}
   {{ with resources.Get "css/main.css" | minify | fingerprint }}
   <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
   {{ end }}

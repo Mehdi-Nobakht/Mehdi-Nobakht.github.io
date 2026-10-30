@@ -17,6 +17,10 @@ disableKinds = ["taxonomy", "term", "rss"]
   # 0 shows every item with no toggle.
   newsLimit = 5
 
+[services.googleAnalytics]
+  # GA4 measurement ID (G-XXXXXXXXXX). Empty = no tracking. Only production builds include it.
+  ID = "G-FXPSCL79ZM"
+
 [menus]
   [[menus.main]]
     name = "About"

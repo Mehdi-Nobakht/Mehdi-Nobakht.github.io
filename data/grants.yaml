@@ -1,0 +1,19 @@
+# Research grants on the Research page, newest first. "text" allows Markdown.
+- when: Mar 2021
+  text: >-
+    **Use of SDN for Multi-bearer Time-sensitive Distributed Systems in the Combat Cloud**, Phase 2.
+    Defence Science and Technology (DST), Department of Defence. AUD 800,000; selected among 20 competing multidisciplinary projects.
+    Investigators: Frank den Hartog, Mehdi Nobakht, Faycal Bouhafs, Guillaume Jourjon, Christos Sioutis, Yego Kiplimo.
+- when: Feb 2020
+  text: >-
+    **Use of SDN for Multi-bearer Time-sensitive Distributed Systems in the Combat Cloud**, Phase 1: Literature Review and Scoping Study.
+    DST, Department of Defence. AUD 97,000.
+    Investigators: Frank den Hartog, Mehdi Nobakht, Elena Sitnikova, Tanvir Ul Huque, Christos Sioutis, Yego Kiplimo.
+- when: Apr 2019
+  text: >-
+    **Use of SDN for Multi-bearer Time-sensitive Distributed Systems**, feasibility study.
+    DST, Department of Defence. AUD 50,000.
+    Investigators: Frank den Hartog, Mehdi Nobakht, Elena Sitnikova, Christos Sioutis, Yego Kiplimo.
+- when: Aug 2014
+  text: >-
+    **Securing IoT**. CSIRO. AUD 30,000. Investigator: Mehdi Nobakht.

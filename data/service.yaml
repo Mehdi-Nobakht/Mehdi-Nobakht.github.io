@@ -1,0 +1,46 @@
+# Professional service, shown on the Service page. The "Service" menu item appears
+# automatically once this list has at least one group with items.
+#
+# Each group has a heading and a list of items (newest first); "when" is free text
+# like "2020" or "2018–2020", and "text" allows Markdown links.
+- heading: Technical Program Committee
+  items:
+    - when: "2022"
+      text: >-
+        First International Workshop on Software-defined Wireless Networks
+
+- heading: Conference Paper Review
+  items:
+    - when: "2019"
+      text: >-
+        Conference on Wired/Wireless Internet Communications (IFIP WWIC)
+    - when: "2018"
+      text: >-
+        ACM/IEEE Conference on Internet of Things Design and Implementation (IoTDI)
+    - when: "2017"
+      text: >-
+        Passive and Active Measurement Conference (PAM)
+    - when: "2016"
+      text: >-
+        IEEE Conference on Local Computer Networks (LCN)
+    - when: "2016"
+      text: >-
+        ACM Conference on Embedded Networked Sensor Systems (SenSys)
+
+- heading: Journal Manuscript Review
+  items:
+    - when: "2020"
+      text: >-
+        IEEE Transactions on Network and Service Management
+    - when: "2018"
+      text: >-
+        IEEE Transactions on Sustainable Computing
+    - when: "2017"
+      text: >-
+        ACM Transactions on Sensor Networks (TOSN)
+
+- heading: PhD Proposal Review
+  items:
+    - when: "2020"
+      text: >-
+        Central Queensland University (CQU)

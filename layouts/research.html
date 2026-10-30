@@ -1,0 +1,67 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<div class="prose">
+  {{ .Content }}
+</div>
+
+{{ $pubs := hugo.Data.publications }}
+{{ $tabs := slice
+  (dict "key" "journal" "label" "Journal articles")
+  (dict "key" "conference" "label" "Conference papers")
+  (dict "key" "report" "label" "Technical reports")
+  (dict "key" "talk" "label" "Talks")
+}}
+{{ $me := site.Title }}
+
+<div class="tabs">
+  <div class="tab-list" role="tablist" aria-label="Publications">
+    {{ range $i, $t := $tabs }}
+    {{ with index $pubs $t.key }}
+    <button id="tab-{{ $t.key }}" role="tab" data-tab="{{ $t.key }}" aria-controls="panel-{{ $t.key }}"
+      aria-selected="{{ if eq $i 0 }}true{{ else }}false{{ end }}" tabindex="{{ if eq $i 0 }}0{{ else }}-1{{ end }}">
+      {{ $t.label }} <span class="tab-count">{{ len . }}</span>
+    </button>
+    {{ end }}
+    {{ end }}
+  </div>
+
+  {{ range $i, $t := $tabs }}
+  {{ with index $pubs $t.key }}
+  <section id="panel-{{ $t.key }}" class="tab-panel" role="tabpanel" aria-labelledby="tab-{{ $t.key }}" data-tabpanel="{{ $t.key }}" tabindex="0">
+    {{/* Visible only when JavaScript is off and all panels show at once. */}}
+    <h2 class="panel-heading">{{ $t.label }}</h2>
+    <ul class="pub-list">
+      {{ range . }}
+      <li>
+        <a class="pub-title" href="{{ .url }}">{{ .title }} ({{ .year }})</a>
+        <div class="pub-authors">{{ replace (.authors | htmlEscape) $me (printf "<strong>%s</strong>" $me) | safeHTML }}</div>
+        <div class="pub-venue">{{ .venue | markdownify }}{{ with .rank }} <span class="pub-rank">{{ . }}</span>{{ end }}</div>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+  {{ end }}
+</div>
+
+{{/* Dated sections below the publication tabs; each is skipped while its data file is empty. */}}
+{{ range slice (dict "key" "grants" "heading" "Research Grants") (dict "key" "supervision" "heading" "Student Supervision") }}
+{{ $heading := .heading }}
+{{ with index hugo.Data .key }}
+<div class="prose section">
+  <h2>{{ $heading }}</h2>
+  <table>
+    <thead><tr><th>When</th><th>Details</th></tr></thead>
+    <tbody>
+      {{ range . }}
+      <tr>
+        <td>{{ .when }}</td>
+        <td>{{ replace (.text | markdownify) $me (printf "<strong>%s</strong>" $me) | safeHTML }}</td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</div>
+{{ end }}
+{{ end }}
+{{ end }}

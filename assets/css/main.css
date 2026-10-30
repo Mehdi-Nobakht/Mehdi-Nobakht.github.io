@@ -1,0 +1,392 @@
+/* Palette and fonts follow julianprester.com: sky blue links, amber hover, neutral greys. */
+:root {
+  --font-sans: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "segoe ui", "helvetica neue", helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+  --font-mono: Menlo, Consolas, Monaco, "Liberation Mono", "Lucida Console", monospace;
+
+  --bg: #ffffff;
+  --text: #171717;
+  --muted: #525252;
+  --rule: #d4d4d4;
+  --link: #075985;
+  --link-hover: #b45309;
+  --code-bg: #f5f5f5;
+}
+
+:root.dark {
+  --bg: #171717;
+  --text: #e5e5e5;
+  --muted: #a3a3a3;
+  --rule: #525252;
+  --link: #38bdf8;
+  --link-hover: #fde68a;
+  --code-bg: #262626;
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+@media (max-width: 40rem) {
+  .container { padding: 0 1rem; }
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+}
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  z-index: 10;
+  padding: .5rem 1rem;
+  background: var(--link);
+  color: #fff;
+  border-radius: .25rem;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+}
+
+button {
+  background: none;
+  border: 0;
+  padding: 0;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Header */
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 2px dotted var(--rule);
+  font-family: var(--font-sans);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.site-nav a { color: inherit; text-decoration: none; }
+.site-nav a:hover,
+.site-nav button:hover,
+.site-nav a.active { color: var(--link); }
+
+.email-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.email-text {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  font-weight: 400;
+  display: none;
+}
+
+.nav-mobile-controls {
+  display: flex;
+  gap: .75rem;
+}
+
+.nav-menu {
+  display: none;
+  width: 100%;
+}
+.nav-menu.open { display: block; }
+
+.nav-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 1.5rem 0 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.nav-desktop-toggle { display: none; }
+
+.theme-toggle .icon-moon { display: none; }
+:root.dark .theme-toggle .icon-sun { display: none; }
+:root.dark .theme-toggle .icon-moon { display: block; }
+
+@media (min-width: 48rem) {
+  .nav-mobile-controls { display: none; }
+  .nav-menu,
+  .nav-menu.open {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: auto;
+  }
+  .nav-menu ul {
+    display: flex;
+    padding: 0;
+    gap: 1rem;
+  }
+  .nav-desktop-toggle { display: block; }
+}
+
+@media (min-width: 64rem) {
+  .email-text { display: inline; }
+  .nav-menu ul { gap: 2rem; }
+}
+
+/* Main content */
+
+main { padding: 1.5rem 0; }
+
+h1, h2, h3 {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 2.25rem;
+  margin: 0 0 2rem;
+}
+
+.prose h2,
+.section-heading {
+  font-size: 1.5rem;
+  margin: 1.5rem 0 .5rem;
+  padding-top: 1.5rem;
+  border-top: 2px dotted var(--rule);
+}
+
+/* The page title already sits above the first section, so skip the divider there. */
+.prose > h2:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
+/* Standalone sections (e.g. below the Research tabs) keep their divider. */
+.prose.section > h2:first-child {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 2px dotted var(--rule);
+}
+
+.prose h3 {
+  font-size: 1.125rem;
+  margin: 1.5rem 0 .25rem;
+  color: var(--muted);
+}
+
+.prose p { margin: 0 0 1rem; }
+
+.prose ul {
+  padding-left: 1.25rem;
+  margin: 0 0 1rem;
+}
+.prose li { margin-bottom: 1rem; }
+
+main a {
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+  transition: color .15s;
+}
+main a:hover { color: var(--link-hover); }
+
+code {
+  font-family: var(--font-mono);
+  font-size: .875em;
+  background: var(--code-bg);
+  padding: .1em .35em;
+  border-radius: .25rem;
+}
+
+/* Two-column tables: date on the left, details on the right. Used for news and the Markdown tables on inner pages. */
+
+/* Fixed layout keeps the date column the same width in every table on a page. */
+.dated,
+.prose table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.dated td,
+.prose td {
+  padding: .5rem;
+  vertical-align: top;
+}
+
+.dated td:first-child,
+.prose td:first-child,
+.prose th:first-child {
+  width: 8.5rem;
+  padding-left: 0;
+  white-space: nowrap;
+  color: var(--muted);
+}
+
+.dated td:last-child,
+.prose td:last-child { padding-right: 0; }
+
+.dated p,
+.prose td p { margin: 0; }
+
+/* Markdown tables need a header row. It stays in the layout (fixed tables take column widths from it)
+   and in the accessibility tree, but is collapsed to zero height to match the news list. */
+.prose th {
+  height: 0;
+  padding: 0;
+  border: 0;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+
+@media (max-width: 40rem) {
+  .dated td:first-child,
+  .prose td:first-child,
+  .prose th:first-child {
+    width: 5.5rem;
+    white-space: normal;
+  }
+}
+
+.more-news { margin-top: 1rem; }
+
+.more-news summary {
+  cursor: pointer;
+  color: var(--link);
+  transition: color .15s;
+}
+.more-news summary:hover { color: var(--link-hover); }
+.more-news summary:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 2px;
+}
+
+.more-news[open] > .dated { margin-top: 1rem; }
+
+/* Research page: publication tabs. Without JS every panel shows with its own heading. */
+
+.tabs { margin-top: 2rem; }
+
+.tab-list { display: none; }
+
+.tabs.js .tab-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  margin-bottom: 1.5rem;
+}
+
+.tab-list button {
+  padding: .5rem;
+  border-bottom: 2px dotted var(--rule);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--muted);
+  transition: color .15s;
+}
+.tab-list button:hover { color: var(--link); }
+.tab-list button[aria-selected="true"] {
+  color: var(--link);
+  border-bottom: 2px solid currentColor;
+}
+.tab-list button:focus-visible,
+.tab-panel:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 2px;
+}
+
+.tab-count {
+  font-family: var(--font-mono);
+  font-weight: 400;
+  font-size: .8125rem;
+  opacity: .75;
+}
+
+.tabs.js .tab-panel[hidden] { display: none; }
+.tabs.js .panel-heading { display: none; }
+
+.panel-heading {
+  font-size: 1.5rem;
+  margin: 1.5rem 0 .5rem;
+  padding-top: 1.5rem;
+  border-top: 2px dotted var(--rule);
+}
+
+.pub-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.pub-list li { margin-bottom: 1.5rem; }
+
+main a.pub-title {
+  font-weight: 700;
+  border-bottom: 0;
+}
+
+.pub-authors,
+.pub-venue { color: var(--muted); }
+.pub-authors strong { color: var(--text); }
+.pub-venue p { margin: 0; display: inline; }
+
+.pub-rank {
+  display: inline-block;
+  margin-left: .25rem;
+  padding: 0 .4em;
+  border: 1px dotted var(--rule);
+  border-radius: .25rem;
+  font-size: .8125rem;
+  white-space: nowrap;
+}
+
+/* Footer */
+
+.site-footer {
+  padding: 1.5rem 0 2.5rem;
+  border-top: 2px dotted var(--rule);
+  text-align: center;
+  color: var(--muted);
+  font-size: .875rem;
+}
+
+.site-footer .social {
+  list-style: none;
+  margin: 0 0 .75rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.site-footer a { color: inherit; }
+.site-footer a:hover { color: var(--link); }
+.site-footer p { margin: 0; }

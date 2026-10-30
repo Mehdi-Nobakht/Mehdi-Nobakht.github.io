@@ -1,0 +1,21 @@
+# Student supervision on the Research page, newest first. "text" allows Markdown.
+- when: 2021–2023
+  text: >-
+    **Master's thesis**, Sharif University of Technology, primary supervisor.
+    "Enabling Fast and Secure Network Updates in SDN". Results presented at IEEE LCN '23 and CNSM '23.
+- when: 2021–2022
+  text: >-
+    **Master's thesis**, Iran University of Science and Technology, primary supervisor.
+    "Utilizing P4 for Mitigating DDoS Attacks". Results published at ARES '22.
+- when: 2020–2021
+  text: >-
+    **Master's thesis**, University of Tehran, primary supervisor.
+    "Enhancing Security in Address Resolution Protocol (ARP)". Results published at CySSS '22 (co-located with ACM ASIACCS 2022).
+- when: 2019–2021
+  text: >-
+    **PhD thesis**, UNSW Canberra, secondary supervisor.
+    "Secure Trading of Unlicensed Spectrum in Cyber-Physical Systems". Results published in IEEE Access.
+- when: "2015"
+  text: >-
+    **Undergraduate thesis**, UNSW Sydney, co-supervisor.
+    "Security and Privacy Analysis of Household IoT".

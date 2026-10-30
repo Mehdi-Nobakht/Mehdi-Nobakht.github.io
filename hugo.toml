@@ -1,0 +1,42 @@
+baseURL = "https://mehdi-nobakht.github.io/"
+locale = "en"
+title = "Mehdi Nobakht"
+disableKinds = ["taxonomy", "term", "rss"]
+
+[params]
+  description = "Mehdi Nobakht, computer scientist and educator in distributed systems, systems security and networked computing."
+  # Split so the full address never appears in the page source as plain text.
+  emailUser = "mehdi.nobakht"
+  emailDomain = "sydney.edu.au"
+  github = "Mehdi-Nobakht"
+  linkedin = "mehdi-n-76795235"
+  scholar = "64zRAPQAAAAJ"
+  orcid = "0000-0003-4676-536X"
+  # How many news items the home page shows up front; the rest sit under a "Show all news…" toggle.
+  # 0 shows every item with no toggle.
+  newsLimit = 5
+
+[menus]
+  [[menus.main]]
+    name = "About"
+    pageRef = "/"
+    weight = 1
+  [[menus.main]]
+    name = "Research"
+    pageRef = "/research"
+    weight = 2
+  [[menus.main]]
+    name = "Teaching"
+    pageRef = "/teaching"
+    weight = 3
+  [[menus.main]]
+    name = "Service"
+    pageRef = "/service"
+    weight = 4
+    # Hidden from the menu while data/service.yaml is empty.
+    [menus.main.params]
+      requiresData = "service"
+
+[markup.goldmark.renderer]
+  # Lets pages contain small bits of raw HTML when Markdown isn't enough.
+  unsafe = true

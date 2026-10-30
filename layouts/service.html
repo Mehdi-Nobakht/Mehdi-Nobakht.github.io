@@ -1,0 +1,22 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<div class="prose">
+  {{ .Content }}
+  {{ range hugo.Data.service }}
+  <h2>{{ .heading }}</h2>
+  <table>
+    <thead><tr><th>When</th><th>Role</th></tr></thead>
+    <tbody>
+      {{ range .items }}
+      <tr>
+        <td>{{ .when }}</td>
+        <td>{{ .text | markdownify }}</td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+  {{ else }}
+  <p>Coming soon.</p>
+  {{ end }}
+</div>
+{{ end }}

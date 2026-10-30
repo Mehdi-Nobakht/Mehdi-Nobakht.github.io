@@ -1,0 +1,53 @@
+# Newest first. Each item: date (YYYY-MM-DD) and text (Markdown allowed), indented under "text: >-".
+# Use "label" instead of date when only a semester or year is known (e.g. label: S2 2024).
+- label: S2 2024
+  text: >-
+    Started lecturing at the School of Computer Science, University of Sydney, coordinating Mobile Computing (COMP4216/5216) and teaching Informatics: Data and Computation (DATA1002/1902).
+- date: 2023-10-30
+  text: >-
+    Presented two papers at CNSM '23 in Niagara Falls, Canada, on [integrated wired and wireless time-sensitive networking using SDN](https://doi.org/10.23919/cnsm59352.2023.10327872) and [priority-based scheduling for consistent network updates in SDN](https://doi.org/10.23919/cnsm59352.2023.10327840) (pUpdate).
+- date: 2023-10-02
+  text: >-
+    Paper with Arshiya Rezaie Hezaveh on [priority-based scheduling for network updates in SDN](https://doi.org/10.1109/lcn58197.2023.10223362) presented at IEEE LCN '23.
+- date: 2022-05-16
+  text: >-
+    Paper accepted by the 17th International Conference on Availability, Reliability and Security (ARES 2022), "HybridDAD: Detecting DDoS Flooding Attack using Machine Learning with Programmable Switches".
+- date: 2022-02-23
+  text: >-
+    Paper accepted by the 1st International Workshop on Cybersecurity and Social Sciences (CySSS), "A Distributed Security Approach against ARP Cache Poisoning Attack".
+- date: 2021-03-01
+  text: >-
+    Started as Research Fellow at UNSW Canberra. Our project on SDN for multi-bearer time-sensitive distributed systems in the combat cloud was awarded AUD 800,000 by Defence Science and Technology (Phase 2).
+- date: 2020-02-19
+  text: >-
+    Paper accepted by IEEE Access, "Combining cooperative with non-cooperative game theory to model Wi-Fi congestion in apartment blocks".
+- date: 2020-02-01
+  text: >-
+    Awarded AUD 97,000 by Defence Science and Technology for Phase 1 of the SDN for time-sensitive distributed systems project.
+- date: 2019-12-15
+  text: >-
+    Paper accepted by the Journal of Network and Computer Applications (JNCA) on permission analysis of health and fitness apps in IoT programming frameworks.
+- date: 2019-08-30
+  text: >-
+    Gave talks on my IoT security research at [Iran University of Science and Technology](http://ce.iust.ac.ir/index.php?slc_lang=en&sid=14) and the [University of Tehran](https://ece.ut.ac.ir/en/ece).
+- date: 2019-08-09
+  text: >-
+    Paper accepted by MilCIS 2019 on a system architecture for time-sensitive heterogeneous wireless distributed software-defined networks.
+- date: 2019-04-01
+  text: >-
+    Awarded AUD 50,000 by Defence Science and Technology for a feasibility study on SDN for multi-bearer time-sensitive distributed systems.
+- date: 2019-03-04
+  text: >-
+    Started a new role as Associate Lecturer at the School of Engineering and Information Technology (SEIT), UNSW Canberra.
+- date: 2019-01-25
+  text: >-
+    Awarded the degree of Doctor of Philosophy by UNSW Sydney, Faculty of Engineering.
+- date: 2019-01-04
+  text: >-
+    Paper accepted by the IEEE PerCom SPT-IoT workshop '19, "IoT-NetSec: Policy-based IoT Network Security Using OpenFlow".
+- date: 2018-08-31
+  text: >-
+    Submitted my Ph.D. thesis, "IoT: Security of Devices and User Data".
+- date: 2018-05-06
+  text: >-
+    Paper accepted by IEEE TrustCom '18 on permission analysis of health and fitness apps in IoT programming frameworks.

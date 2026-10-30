@@ -1,0 +1,103 @@
+# Publications shown on the Research page, one list per tab, newest first.
+# Each item: title, url, year, authors (your name is bolded automatically), venue (Markdown allowed),
+# and optionally rank (e.g. "CORE 2021: B"), shown after the venue.
+journal:
+  - title: Combining Cooperative With Non-Cooperative Game Theory to Model Wi-Fi Congestion in Apartment Blocks
+    url: https://doi.org/10.1109/access.2020.2984535
+    year: 2020
+    authors: Maran Van Heesch, Pascal L. J. Wissink, Ramtin Ranji, Mehdi Nobakht, Frank Den Hartog
+    venue: >-
+      *[IEEE Access](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639)*, vol. 8, pp. 64603–64616
+    rank: "ERA 2010: B"
+  - title: "PGFit: Static Permission Analysis of Health and Fitness Apps in IoT Programming Frameworks"
+    url: https://doi.org/10.1016/j.jnca.2019.102509
+    year: 2020
+    authors: Mehdi Nobakht, Yulei Sui, Aruna Seneviratne, Wen Hu
+    venue: >-
+      *[Journal of Network and Computer Applications](https://www.sciencedirect.com/journal/journal-of-network-and-computer-applications)*, vol. 152, 102509
+    rank: "CORE 2020: A"
+
+conference:
+  - title: On Integrated Wired and Wireless Time-Sensitive Networking using SDN
+    url: https://doi.org/10.23919/cnsm59352.2023.10327872
+    year: 2023
+    authors: Mehdi Nobakht, Frank den Hartog
+    venue: >-
+      *19th International Conference on Network and Service Management* (CNSM '23), pp. 1–5, Niagara Falls, Canada
+    rank: "CORE 2021: B"
+  - title: "pUpdate: Priority-based Scheduling for Continuous and Consistent Network Updates in SDN"
+    url: https://doi.org/10.23919/cnsm59352.2023.10327840
+    year: 2023
+    authors: Mehdi Nobakht, Arshiya Rezaie Hezaveh
+    venue: >-
+      *19th International Conference on Network and Service Management* (CNSM '23), pp. 1–7, Niagara Falls, Canada
+    rank: "CORE 2021: B"
+  - title: On Priority-Based Scheduling for Network Updates in SDN
+    url: https://doi.org/10.1109/lcn58197.2023.10223362
+    year: 2023
+    authors: Arshiya Rezaie Hezaveh, Mehdi Nobakht
+    venue: >-
+      *48th IEEE Conference on Local Computer Networks* (LCN '23), pp. 1–4, Daytona Beach, Florida, USA
+    rank: "CORE 2020: A"
+  - title: "HybridDAD: Detecting DDoS Flooding Attack using Machine Learning with Programmable Switches"
+    url: https://doi.org/10.1145/3538969.3538991
+    year: 2022
+    authors: Mostafa Roshani, Mehdi Nobakht
+    venue: >-
+      *17th International Conference on Availability, Reliability and Security* (ARES '22), pp. 1–11, Vienna, Austria
+    rank: "CORE 2021: B"
+  - title: A Distributed Security Approach against ARP Cache Poisoning Attack
+    url: https://doi.org/10.1145/3494108.3522765
+    year: 2022
+    authors: Mehdi Nobakht, Hadi Mahmoudi, Omid Rahimzadeh
+    venue: >-
+      *1st Workshop on Cybersecurity and Social Sciences* (CySSS '22), co-located with ACM ASIACCS 2022, pp. 27–32, Nagasaki, Japan
+  - title: A System Architecture for Time-sensitive Heterogeneous Wireless Distributed Software-defined Networks
+    url: https://doi.org/10.1109/milcis.2019.8930753
+    year: 2019
+    authors: Tanvir Ishtaique ul Huque, Kiplimo Yego, Christos Sioutis, Mehdi Nobakht, Elena Sitnikova, Frank den Hartog
+    venue: >-
+      *Military Communications and Information Systems Conference* ([MilCIS](https://www.milcis.com.au/)), pp. 1–6, Canberra, Australia
+  - title: "IoT-NetSec: Policy-based IoT Network Security using OpenFlow"
+    url: /assets/publications/2019-PerCom-IoT_NetSec.pdf
+    year: 2019
+    authors: Mehdi Nobakht, Craig Russell, Wen Hu, Aruna Seneviratne
+    venue: >-
+      *IEEE PerCom Workshops*, Third International Workshop on Security, Privacy and Trust in the Internet of Things ([SPT-IoT 2019](https://sites.google.com/view/spt-iot/home)), pp. 955–960, Kyoto, Japan
+  - title: Permission Analysis of Health and Fitness Apps in IoT Programming Frameworks
+    url: /assets/publications/2018-TrustCom-PGFit.pdf
+    year: 2018
+    authors: Mehdi Nobakht, Yulei Sui, Aruna Seneviratne, Wen Hu
+    venue: >-
+      *17th IEEE International Conference on Trust, Security and Privacy in Computing and Communications* ([TrustCom 2018](http://www.cloud-conf.net/trustcom18/)), pp. 533–538, New York, US
+    rank: "CORE 2020: A"
+  - title: A Host-based Intrusion Detection and Mitigation Framework for Smart Home IoT using OpenFlow
+    url: /assets/publications/2016-ARES-IoT_IDM.pdf
+    year: 2016
+    authors: Mehdi Nobakht, Vijay Sivaraman, Roksana Boreli
+    venue: >-
+      *11th International Conference on Availability, Reliability and Security* ([ARES 2016](http://www.ares-conference.eu/ares2016/www.ares-conference.eu/conference/index.html)), pp. 147–156, Salzburg, Austria
+    rank: "CORE 2021: B"
+  - title: An Approach for Validation, Verification, and Model-Based Testing of UML-Based Real-Time Systems
+    url: /assets/publications/2013-ICSEA-main.pdf
+    year: 2013
+    authors: Mehdi Nobakht, Dragos Truscan
+    venue: >-
+      *8th International Conference on Software Engineering Advances* ([ICSEA 2013](http://www.iaria.org/conferences2013/ICSEA13.html)), Venice, Italy
+    rank: "CORE 2021: C"
+
+report:
+  - title: Tool Support for Transforming UML-based Specification into UPPAAL Timed Automata
+    url: http://tucs.fi/publications/view/?pub_id=tNoTr13a
+    year: 2013
+    authors: Mehdi Nobakht, Dragos Truscan
+    venue: >-
+      TUCS Technical Report 1087, [TUCS](https://tucs.fi/)
+
+talk:
+  - title: "IoT: Securing Devices and User Data"
+    url: /assets/talks/2019-SecuringIoT.pdf
+    year: 2019
+    authors: Mehdi Nobakht
+    venue: >-
+      Invited talks at the [University of Tehran, School of Electrical and Computer Engineering](https://ece.ut.ac.ir/en/ece) and [Iran University of Science and Technology, School of Computer Engineering](http://ce.iust.ac.ir/index.php?slc_lang=en&sid=14), September 2019

@@ -1,0 +1,26 @@
+<nav class="site-nav">
+  <a class="email-link" data-user="{{ site.Params.emailUser }}" data-domain="{{ site.Params.emailDomain }}" aria-label="Send email">
+    {{ partial "icon.html" "mail" }}
+    <span class="email-text">{{ site.Params.emailUser }} [at] {{ site.Params.emailDomain }}</span>
+  </a>
+  <div class="nav-mobile-controls">
+    {{ partial "theme-toggle.html" . }}
+    <button class="menu-toggle" aria-controls="nav-menu" aria-expanded="false" aria-label="Open navigation menu">
+      {{ partial "icon.html" "menu" }}
+    </button>
+  </div>
+  <div id="nav-menu" class="nav-menu">
+    <ul>
+      {{ $current := . }}
+      {{ range site.Menus.main }}
+      {{ $key := .Params.requiresData }}
+      {{ if or (not $key) (index hugo.Data $key) }}
+      <li>
+        <a href="{{ .URL }}"{{ if $current.IsMenuCurrent "main" . }} class="active" aria-current="page"{{ end }}>{{ .Name }}</a>
+      </li>
+      {{ end }}
+      {{ end }}
+    </ul>
+    <div class="nav-desktop-toggle">{{ partial "theme-toggle.html" . }}</div>
+  </div>
+</nav>

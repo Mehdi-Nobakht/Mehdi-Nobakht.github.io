@@ -1,0 +1,11 @@
+{{- /* Renders a list of news items (from data/news.yaml) as a dated table. */ -}}
+<table class="dated">
+  <tbody>
+    {{ range . }}
+    <tr>
+      <td class="date">{{ with .label }}{{ . }}{{ else }}{{ time.Format "Jan 2006" .date }}{{ end }}</td>
+      <td>{{ .text | markdownify }}</td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>

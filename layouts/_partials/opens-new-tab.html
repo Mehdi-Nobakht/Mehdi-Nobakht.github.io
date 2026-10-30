@@ -1,0 +1,3 @@
+{{- /* Returns true for URLs that should open in a new tab so visitors stay on this site: external sites and PDFs. */ -}}
+{{- $u := urls.Parse . -}}
+{{- return (or (in (slice "http" "https") $u.Scheme) (strings.HasSuffix (lower $u.Path) ".pdf")) -}}

@@ -251,6 +251,9 @@ code {
   color: var(--muted);
 }
 
+/* Page tables may hold paired course codes (COMP4347 / COMP5347) on the left; let them wrap rather than overlap. */
+.prose td:first-child { white-space: normal; }
+
 .dated td:last-child,
 .prose td:last-child { padding-right: 0; }
 

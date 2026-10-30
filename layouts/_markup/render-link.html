@@ -1,0 +1,3 @@
+{{- /* Markdown links (pages and data files): external sites and PDFs open in a new tab. */ -}}
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if partial "opens-new-tab.html" .Destination }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Text }}</a>
+{{- /**/ -}}

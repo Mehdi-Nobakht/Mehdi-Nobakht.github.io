@@ -4,7 +4,7 @@ title = "Mehdi Nobakht"
 disableKinds = ["taxonomy", "term", "rss"]
 
 [params]
-  description = "Mehdi Nobakht, computer scientist and educator in distributed systems, systems security and networked computing."
+  description = "Mehdi Nobakht, education-focused academic at the University of Sydney teaching computer science and business analytics, with a research background in computer networking and cybersecurity."
   # Split so the full address never appears in the page source as plain text.
   emailUser = "mehdi.nobakht"
   emailDomain = "sydney.edu.au"
@@ -12,6 +12,7 @@ disableKinds = ["taxonomy", "term", "rss"]
   linkedin = "mehdi-n-76795235"
   scholar = "64zRAPQAAAAJ"
   orcid = "0000-0003-4676-536X"
+  scopus = "57193629434"
   # How many news items the home page shows up front; the rest sit under a "Show all news…" toggle.
   # 0 shows every item with no toggle.
   newsLimit = 5

@@ -4,16 +4,19 @@
       <a class="email-link" data-user="{{ site.Params.emailUser }}" data-domain="{{ site.Params.emailDomain }}" aria-label="Email">{{ partial "icon.html" "mail" }}</a>
     </li>
     {{ with site.Params.scholar }}
-    <li><a href="https://scholar.google.com/citations?user={{ . }}" aria-label="Google Scholar">{{ partial "icon.html" "scholar" }}</a></li>
+    <li><a href="https://scholar.google.com/citations?user={{ . }}" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar (opens in new tab)">{{ partial "icon.html" "scholar" }}</a></li>
     {{ end }}
     {{ with site.Params.orcid }}
-    <li><a href="https://orcid.org/{{ . }}" aria-label="ORCID">{{ partial "icon.html" "orcid" }}</a></li>
+    <li><a href="https://orcid.org/{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="ORCID (opens in new tab)">{{ partial "icon.html" "orcid" }}</a></li>
+    {{ end }}
+    {{ with site.Params.scopus }}
+    <li><a href="https://www.scopus.com/authid/detail.uri?authorId={{ . }}" target="_blank" rel="noopener noreferrer" aria-label="Scopus (opens in new tab)">{{ partial "icon.html" "scopus" }}</a></li>
     {{ end }}
     {{ with site.Params.github }}
-    <li><a href="https://github.com/{{ . }}" aria-label="GitHub">{{ partial "icon.html" "github" }}</a></li>
+    <li><a href="https://github.com/{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="GitHub (opens in new tab)">{{ partial "icon.html" "github" }}</a></li>
     {{ end }}
     {{ with site.Params.linkedin }}
-    <li><a href="https://www.linkedin.com/in/{{ . }}" aria-label="LinkedIn">{{ partial "icon.html" "linkedin" }}</a></li>
+    <li><a href="https://www.linkedin.com/in/{{ . }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn (opens in new tab)">{{ partial "icon.html" "linkedin" }}</a></li>
     {{ end }}
   </ul>
   <p>&copy; {{ now.Year }} {{ site.Title }}</p>

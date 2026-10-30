@@ -33,7 +33,7 @@
     <ul class="pub-list">
       {{ range . }}
       <li>
-        <a class="pub-title" href="{{ .url }}">{{ .title }} ({{ .year }})</a>
+        <a class="pub-title" href="{{ .url }}"{{ if partial "opens-new-tab.html" .url }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .title }} ({{ .year }})</a>
         <div class="pub-authors">{{ replace (.authors | htmlEscape) $me (printf "<strong>%s</strong>" $me) | safeHTML }}</div>
         <div class="pub-venue">{{ .venue | markdownify }}{{ with .rank }} <span class="pub-rank">{{ . }}</span>{{ end }}</div>
       </li>
@@ -45,7 +45,7 @@
 </div>
 
 {{/* Dated sections below the publication tabs; each is skipped while its data file is empty. */}}
-{{ range slice (dict "key" "grants" "heading" "Research Grants") (dict "key" "supervision" "heading" "Student Supervision") }}
+{{ range slice (dict "key" "grants" "heading" "Research Grants") }}
 {{ $heading := .heading }}
 {{ with index hugo.Data .key }}
 <div class="prose section">

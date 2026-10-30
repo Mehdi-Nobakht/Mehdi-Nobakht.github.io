@@ -1,44 +1,45 @@
 ---
-title: Teaching
+title: My Teaching
 ---
 
-I have taught face-to-face, blended and fully online courses, including through COVID-19 (2020–2022). I designed the COMP9332 advanced routing curriculum (SDN, mobile ad-hoc networking) and the ZEIT2104 network engineering curriculum, built cloud-based virtual labs for cybersecurity, networking and data analysis, and use mid-lecture quizzes for real-time feedback. I work with Canvas, Ed Lessons, Moodle, Blackboard, GitHub, Padlet, Jamboard and Menti.
+My learners are undergraduate and postgraduate coursework students in computer science, data science and business analytics, often in mixed-level cohorts. Many are international, and experience ranges from professional developers to first-time programmers. Since 2024, I have coordinated and lectured Mobile Computing COMP4216/5216) and Web Application Development  (COMP4347/5347), lectured Data
+Structures and Algorithms (COMP9123) and Informatics: Data and Com-
+putation (DATA1002/1902), Data Visualisation for Managers (INFS6023), and taught Accounting Information Systems (INFS3110/INFS5000) and Advanced Analytics (QBUS3830).
+
+
 
 ## School of Computer Science, The University of Sydney
 
-| When | Course |
+| Course code and link| Course |
 |---|---|
-| S1 2026 | Tutor, "Systems Programming", `COMP2017` |
-| S2 2025 | Lecturer, "Data Structures and Algorithms", [`COMP9123`](https://www.sydney.edu.au/units/COMP9123/2025-S2C-NE-CC) |
-| S1 2025 | Coordinator and Lecturer, "Web Application Development", [`COMP4347`](https://www.sydney.edu.au/units/COMP4347/2025-S1C-NE-CC) / [`COMP5347`](https://www.sydney.edu.au/units/COMP5347/2025-S1C-NE-CC) |
-| S2 2024 | Coordinator and Lecturer, "Mobile Computing", [`COMP4216`](https://www.sydney.edu.au/units/COMP4216/2024-S2C-NE-CC) / [`COMP5216`](https://www.sydney.edu.au/units/COMP5216/2024-S2C-NE-CC) |
-| S2 2024 | Lecturer, "Informatics: Data and Computation", [`DATA1002`](https://www.sydney.edu.au/units/DATA1002/2024-S2C-ND-CC) / [`DATA1902`](https://www.sydney.edu.au/units/DATA1902/2024-S2C-ND-CC) |
-| S2 2016 | Tutor, "Advanced Network Technologies", `COMP5416` |
-| S2 2014–16 | Tutor, "Principles of Distributed Systems and Networks", `COMP2121` |
+| [`COMP9123`](https://www.sydney.edu.au/units/COMP9123/2025-S2C-NE-CC) | Data Structures and Algorithms  |
+| [`COMP4347`](https://www.sydney.edu.au/units/COMP4347/2025-S1C-NE-CC) / [`COMP5347`](https://www.sydney.edu.au/units/COMP5347/2025-S1C-NE-CC) | Web Application Development, Coordinator and Lecturer  |
+| [`COMP4216`](https://www.sydney.edu.au/units/COMP4216/2024-S2C-NE-CC) / [`COMP5216`](https://www.sydney.edu.au/units/COMP5216/2024-S2C-NE-CC) | Mobile Computing, Coordinator and Lecturer  |
+| [`DATA1002`](https://www.sydney.edu.au/units/DATA1002/2024-S2C-ND-CC) / [`DATA1902`](https://www.sydney.edu.au/units/DATA1902/2024-S2C-ND-CC) | Informatics: Data and Computation  |
+| [`COMP2017`](https://www.sydney.edu.au/units/COMP2017) | Systems Programming  |
+| [`COMP5416`](https://www.sydney.edu.au/units/COMP5416) | Advanced Network Technologies|
+| `COMP2121` | Principles of Distributed Systems and Networks  |
 
 ## Business School, The University of Sydney
 
-| When | Course |
+| Course code and link| Course |
 |---|---|
-| S1 2026 | Lecturer, "Accounting Information Systems", `INFS5000` |
-| S2 2024–25 | Lecturer, "Data Visualisation for Managers", `INFS6203` |
-| S1 2025 | Co-facilitator, "Managing with Information and Data", `INFS6018` |
-| S1 & S2 2024 | Co-facilitator, "Accounting Information Systems", `INFS3110` |
-| S2 2021 | Co-facilitator, "Accounting Information Systems", `INFS3110` (online) |
-| S2 2018 | Co-facilitator, "Accounting Information Systems", `INFS5000` |
-| S2 2018 | Co-facilitator, "Enterprise Systems Management", `INFS6012` |
+| [`INFS3110`](https://www.sydney.edu.au/units/INFS3110) / [`INFS5000`](https://www.sydney.edu.au/units/INFS5000) | Accounting Information Systems  |
+| [`QBUS3830`](https://www.sydney.edu.au/units/QBUS3830) | Advanced Analytics  |
+| [`INFS6023`](https://www.sydney.edu.au/units/INFS6023) | Data Visualisation for Managers  |
+| [`INFS6018`](https://www.sydney.edu.au/units/INFS6018) | Managing with Information and Data  |
+| [`INFS6012`](https://www.sydney.edu.au/units/INFS6012) | Enterprise Systems Management  |
 
 ## School of Engineering and Information Technology, UNSW Canberra
 
-| When | Course |
+| Course code and link| Course |
 |---|---|
-| S2 2020 | Lecturer and Lab Instructor, "Computers and Security", `ZEIT2104` (online) |
-| S2 2020 | Tutor and Lab Demonstrator, "Introduction to Programming", `ZEIT1102` (online) |
-| S2 2019 | Lecturer and Lab Instructor, "Computers and Security", `ZEIT2104` |
+| [`ZEIT2104`](https://www.handbook.unsw.edu.au/undergraduate/courses/2026/ZEIT2104) | Computers and Security  |
+| [`ZEIT1102`](https://www.handbook.unsw.edu.au/undergraduate/courses/2026/ZEIT1102) | Introduction to Programming  |
 
 ## School of Computer Science and Engineering, UNSW Sydney
 
-| When | Course |
+| Course code and link| Course |
 |---|---|
-| S1 2018 | Lecturer, "Network Routing and Switching", `COMP9332` |
-| S2 2016 | Tutor, "Computer Networks and Applications", `COMP3331` |
+| [`COMP9332`](https://www.handbook.unsw.edu.au/postgraduate/courses/2026/COMP9332) | Network Routing and Switching  |
+| [`COMP3331`](https://www.handbook.unsw.edu.au/undergraduate/courses/2026/COMP3331) | Computer Networks and Applications  |

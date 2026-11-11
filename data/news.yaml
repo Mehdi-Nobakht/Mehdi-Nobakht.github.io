@@ -2,10 +2,10 @@
 # Use "label" instead of date when only a semester or year is known (e.g. label: S2 2024).
 - date: 2026-07-01
   text: >-
-    Semester 2, 2026: lecturing Data Structures and Algorithms (COMP9123) at the School of Computer Science and Data Visualisation for Managers (INFS6023) at the Business School, University of Sydney.
+    Semester 2, 2026: teaching Data Visualisation for Managers (INFS6023) and Advanced Analytics (QBUS3830) at the Business School, University of Sydney.
 - date: 2026-02-01
   text: >-
-    Semester 1, 2026: lecturing Accounting Information Systems (INFS5000) and teaching Advanced Analytics (QBUS3830) at the Business School, and tutoring Systems Programming (COMP2017) at the School of Computer Science.
+    Semester 1, 2026: lecturing Accounting Information Systems (INFS5000) at the Business School, and tutoring Systems Programming (COMP2017) at the School of Computer Science.
 - date: 2025-07-01
   text: >-
     Semester 2, 2025: lecturing Data Structures and Algorithms (COMP9123) at the School of Computer Science and Data Visualisation for Managers (INFS6023) at the Business School.

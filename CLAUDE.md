@@ -29,7 +29,7 @@ Live at https://mehdi-nobakht.github.io. `origin` is `Mehdi-Nobakht/Mehdi-Nobakh
 
 ## Structure
 
-- `content/_index.md` is the home page bio; `content/teaching.md` is a plain Markdown page. The top nav is `[menus]` in `hugo.toml`, not page front matter The same menu is repeated as bold links at the top of the footer (`_partials/footer.html`), as on julianprester.com.
+- `content/_index.md` is the home page bio; `content/teaching.md` is a plain Markdown page. The top nav is `[menus]` in `hugo.toml`, not page front matter. The same menu is repeated as bold links at the top of the footer (`_partials/footer.html`), as on julianprester.com.
 - Favicon: "MN" in white on the light-mode link blue (`#075985`). `static/favicon.svg` is the source; `favicon.ico` and `apple-touch-icon.png` were rendered from it with Pillow (Arial Bold), so regenerate them if it changes. Linked from `baseof.html`.
 - Research page: `content/research.md` holds the statement (and an alias so the old `/publications/` URL redirects); the publication list comes from `data/publications.yaml`, keyed by tab (`journal`, `conference`, `report`, `talk`), rendered as tabs by `layouts/research.html`. `site.Title` is bolded wherever it appears in `authors`. Tab switching is in `assets/js/site.js`; with JS off, all panels show with headings.
 - Publications may carry an optional `rank` (e.g. `"CORE 2021: B"`), shown as a small badge after the venue. Below the tabs, `layouts/research.html` renders `data/grants.yaml` (`when` + Markdown `text`) as a dated table, skipped while the file is empty.

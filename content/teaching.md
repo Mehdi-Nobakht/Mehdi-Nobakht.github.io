@@ -4,7 +4,7 @@ title: My Teaching
 
 My learners are undergraduate and postgraduate coursework students in computer science, data science and business analytics, often in mixed-level cohorts. Many are international, and experience ranges from professional developers to first-time programmers.
 
-Since 2024, I have coordinated and lectured Mobile Computing (COMP4216/COMP5216) and Web Application Development (COMP4347/COMP5347), lectured Data Structures and Algorithms (COMP9123), Informatics: Data and Computation (DATA1002/DATA1902) and Data Visualisation for Managers (INFS6023), and taught Accounting Information Systems (INFS3110/INFS5000) and Advanced Analytics (QBUS3830).
+Since 2024, I have coordinated and lectured Mobile Computing (COMP4216/COMP5216) and Web Application Development (COMP4347/COMP5347), lectured Data Structures and Algorithms (COMP9123), Informatics: Data and Computation (DATA1002/DATA1902) and Data Visualisation for Managers (INFS6023), and taught Information Systems for Accountants (INFS3110), Accounting Information Systems (INFS5000) and Advanced Analytics (QBUS3830).
 
 ## School of Computer Science, The University of Sydney
 
@@ -22,9 +22,10 @@ Since 2024, I have coordinated and lectured Mobile Computing (COMP4216/COMP5216)
 
 | Course code and link| Course |
 |---|---|
-| [`INFS3110`](https://www.sydney.edu.au/units/INFS3110) / [`INFS5000`](https://www.sydney.edu.au/units/INFS5000) | Accounting Information Systems  |
 | [`QBUS3830`](https://www.sydney.edu.au/units/QBUS3830) | Advanced Analytics  |
 | [`INFS6023`](https://www.sydney.edu.au/units/INFS6023) | Data Visualisation for Managers  |
+| [`INFS3110`](https://www.sydney.edu.au/units/INFS3110) | Information Systems for Accountants  |
+| [`INFS5000`](https://www.sydney.edu.au/units/INFS5000) | Accounting Information Systems  |
 | [`INFS6018`](https://www.sydney.edu.au/units/INFS6018) | Managing with Information and Data  |
 | [`INFS6012`](https://www.sydney.edu.au/units/INFS6012) | Enterprise Systems Management  |
 

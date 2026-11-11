@@ -395,7 +395,7 @@ main a.pub-title {
 
 .site-footer .social {
   list-style: none;
-  margin: 0 0 .75rem;
+  margin: 0 0 1.75rem;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -407,5 +407,6 @@ main a.pub-title {
 }
 
 .site-footer a { color: inherit; }
+.site-footer .footer-nav a { text-decoration: none; }
 .site-footer a:hover { color: var(--link); }
 .site-footer p { margin: 0; }

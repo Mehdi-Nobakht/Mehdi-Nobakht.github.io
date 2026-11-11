@@ -245,7 +245,7 @@ code {
 .dated td:first-child,
 .prose td:first-child,
 .prose th:first-child {
-  width: 9.5rem;
+  width: 8.5rem;
   padding-left: 0;
   white-space: nowrap;
   color: var(--muted);

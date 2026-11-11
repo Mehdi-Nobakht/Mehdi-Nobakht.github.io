@@ -3,7 +3,7 @@
   <tbody>
     {{ range . }}
     <tr>
-      <td class="date">{{ with .label }}{{ . }}{{ else }}{{ time.Format "January 2006" .date }}{{ end }}</td>
+      <td class="date">{{ with .label }}{{ . }}{{ else }}{{ time.Format "Jan 2006" .date }}{{ end }}</td>
       <td>{{ .text | markdownify }}</td>
     </tr>
     {{ end }}

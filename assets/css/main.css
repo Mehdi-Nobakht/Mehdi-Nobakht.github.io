@@ -381,6 +381,18 @@ main a.pub-title {
   font-size: .875rem;
 }
 
+.site-footer .footer-nav ul {
+  list-style: none;
+  margin: 0 0 1.5rem;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: .5rem 1rem;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
 .site-footer .social {
   list-style: none;
   margin: 0 0 .75rem;

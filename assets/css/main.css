@@ -399,7 +399,11 @@ main a.pub-title {
   padding: 0;
   display: flex;
   justify-content: center;
-  gap: 1.25rem;
+  gap: 2.5rem;
+}
+
+@media (max-width: 40rem) {
+  .site-footer .social { gap: 1.75rem; }
 }
 
 .site-footer a { color: inherit; }

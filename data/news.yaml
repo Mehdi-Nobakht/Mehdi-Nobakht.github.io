@@ -1,20 +1,8 @@
 # Newest first. Each item: date (YYYY-MM-DD) and text (Markdown allowed), indented under "text: >-".
 # Use "label" instead of date when only a semester or year is known (e.g. label: S2 2024).
-- date: 2026-07-01
-  text: >-
-    Semester 2, 2026: teaching Data Visualisation for Managers (INFS6023) and Advanced Analytics (QBUS3830) at the Business School, University of Sydney.
-- date: 2026-02-01
-  text: >-
-    Semester 1, 2026: lecturing Accounting Information Systems (INFS5000) at the Business School, and teaching assistant for Systems Programming (COMP2017) at the School of Computer Science.
-- date: 2025-07-01
-  text: >-
-    Semester 2, 2025: lecturing Data Structures and Algorithms (COMP9123) at the School of Computer Science and Data Visualisation for Managers (INFS6023) at the Business School.
-- date: 2025-02-01
-  text: >-
-    Semester 1, 2025: coordinating and lecturing Web Application Development (COMP4347/COMP5347) at the School of Computer Science, and co-facilitating Managing with Information and Data (INFS6018) at the Business School.
 - date: 2024-07-01
   text: >-
-    Started lecturing at the School of Computer Science, University of Sydney, coordinating Mobile Computing (COMP4216/COMP5216) and teaching Informatics: Data and Computation (DATA1002/DATA1902). At the Business School, lecturing Data Visualisation for Managers (INFS6023) and co-facilitating Information Systems for Accountants (INFS3110).
+    Started teaching at the School of Computer Science and the Business School, The University of Sydney.
 - date: 2023-10-30
   text: >-
     Presented two papers at CNSM '23 in Niagara Falls, Canada, on [integrated wired and wireless time-sensitive networking using SDN](https://doi.org/10.23919/cnsm59352.2023.10327872) and [priority-based scheduling for consistent network updates in SDN](https://doi.org/10.23919/cnsm59352.2023.10327840) (pUpdate).

@@ -23,35 +23,35 @@ conference:
     year: 2023
     authors: Mehdi Nobakht, Frank den Hartog
     venue: >-
-      *19th International Conference on Network and Service Management* (CNSM '23), pp. 1–5, Niagara Falls, Canada
+      *19th International Conference on Network and Service Management* (CNSM ’23), pp. 1–5, Niagara Falls, Canada
     rank: "CORE 2021: B"
   - title: "pUpdate: Priority-based Scheduling for Continuous and Consistent Network Updates in SDN"
     url: https://doi.org/10.23919/cnsm59352.2023.10327840
     year: 2023
     authors: Mehdi Nobakht, Arshiya Rezaie Hezaveh
     venue: >-
-      *19th International Conference on Network and Service Management* (CNSM '23), pp. 1–7, Niagara Falls, Canada
+      *19th International Conference on Network and Service Management* (CNSM ’23), pp. 1–7, Niagara Falls, Canada
     rank: "CORE 2021: B"
   - title: On Priority-Based Scheduling for Network Updates in SDN
     url: https://doi.org/10.1109/lcn58197.2023.10223362
     year: 2023
     authors: Arshiya Rezaie Hezaveh, Mehdi Nobakht
     venue: >-
-      *48th IEEE Conference on Local Computer Networks* (LCN '23), pp. 1–4, Daytona Beach, Florida, USA
+      *48th IEEE Conference on Local Computer Networks* (LCN ’23), pp. 1–4, Daytona Beach, Florida, USA
     rank: "CORE 2020: A"
   - title: "HybridDAD: Detecting DDoS Flooding Attack using Machine Learning with Programmable Switches"
     url: https://doi.org/10.1145/3538969.3538991
     year: 2022
     authors: Mostafa Roshani, Mehdi Nobakht
     venue: >-
-      *17th International Conference on Availability, Reliability and Security* (ARES '22), pp. 1–11, Vienna, Austria
+      *17th International Conference on Availability, Reliability and Security* (ARES ’22), pp. 1–11, Vienna, Austria
     rank: "CORE 2021: B"
   - title: A Distributed Security Approach against ARP Cache Poisoning Attack
     url: https://doi.org/10.1145/3494108.3522765
     year: 2022
     authors: Mehdi Nobakht, Hadi Mahmoudi, Omid Rahimzadeh
     venue: >-
-      *1st Workshop on Cybersecurity and Social Sciences* (CySSS '22), co-located with ACM ASIACCS 2022, pp. 27–32, Nagasaki, Japan
+      *1st Workshop on Cybersecurity and Social Sciences* (CySSS ’22), co-located with ACM ASIACCS 2022, pp. 27–32, Nagasaki, Japan
   - title: A System Architecture for Time-sensitive Heterogeneous Wireless Distributed Software-defined Networks
     url: https://doi.org/10.1109/milcis.2019.8930753
     year: 2019

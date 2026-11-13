@@ -2,13 +2,13 @@
 # Use "label" instead of date when only a semester or year is known (e.g. label: S2 2024).
 - date: 2024-02-01
   text: >-
-    Started teaching at the School of Computer Science and the Business School, The University of Sydney.
+    Started coordinating and teaching at the School of Computer Science and the Business School, The University of Sydney.
 - date: 2023-10-30
   text: >-
-    Presented two papers at CNSM '23 in Niagara Falls, Canada, on [integrated wired and wireless time-sensitive networking using SDN](https://doi.org/10.23919/cnsm59352.2023.10327872) and [priority-based scheduling for consistent network updates in SDN](https://doi.org/10.23919/cnsm59352.2023.10327840) (pUpdate).
+    Presented two papers at CNSM ’23 in Niagara Falls, Canada, on [integrated wired and wireless time-sensitive networking using SDN](https://doi.org/10.23919/cnsm59352.2023.10327872) and [priority-based scheduling for consistent network updates in SDN](https://doi.org/10.23919/cnsm59352.2023.10327840) (pUpdate).
 - date: 2023-10-02
   text: >-
-    Paper with Arshiya Rezaie Hezaveh on [priority-based scheduling for network updates in SDN](https://doi.org/10.1109/lcn58197.2023.10223362) presented at IEEE LCN '23.
+    Paper with Arshiya Rezaie Hezaveh on [priority-based scheduling for network updates in SDN](https://doi.org/10.1109/lcn58197.2023.10223362) presented at IEEE LCN ’23.
 - date: 2022-05-16
   text: >-
     Paper accepted by the 17th International Conference on Availability, Reliability and Security (ARES 2022), "HybridDAD: Detecting DDoS Flooding Attack using Machine Learning with Programmable Switches".
@@ -44,10 +44,10 @@
     Awarded my Ph.D. in Computer Science by UNSW Sydney for the thesis "The Internet of Things: Securing Devices and User Data".
 - date: 2019-01-04
   text: >-
-    Paper accepted by the IEEE PerCom SPT-IoT workshop '19, "IoT-NetSec: Policy-based IoT Network Security Using OpenFlow".
+    Paper accepted by the IEEE PerCom SPT-IoT workshop ’19, "IoT-NetSec: Policy-based IoT Network Security Using OpenFlow".
 - date: 2018-08-31
   text: >-
     Submitted my Ph.D. thesis, "The Internet of Things: Securing Devices and User Data".
 - date: 2018-05-06
   text: >-
-    Paper accepted by IEEE TrustCom '18 on permission analysis of health and fitness apps in IoT programming frameworks.
+    Paper accepted by IEEE TrustCom ’18 on permission analysis of health and fitness apps in IoT programming frameworks.

@@ -1,6 +1,6 @@
 # Newest first. Each item: date (YYYY-MM-DD) and text (Markdown allowed), indented under "text: >-".
 # Use "label" instead of date when only a semester or year is known (e.g. label: S2 2024).
-- date: 2024-07-01
+- date: 2024-02-01
   text: >-
     Started teaching at the School of Computer Science and the Business School, The University of Sydney.
 - date: 2023-10-30
@@ -41,13 +41,13 @@
     Started a new role as Associate Lecturer at the School of Engineering and Information Technology (SEIT), UNSW Canberra.
 - date: 2019-01-25
   text: >-
-    Awarded the degree of Doctor of Philosophy by UNSW Sydney, Faculty of Engineering.
+    Awarded my Ph.D. in Computer Science by UNSW Sydney for the thesis "The Internet of Things: Securing Devices and User Data".
 - date: 2019-01-04
   text: >-
     Paper accepted by the IEEE PerCom SPT-IoT workshop '19, "IoT-NetSec: Policy-based IoT Network Security Using OpenFlow".
 - date: 2018-08-31
   text: >-
-    Submitted my Ph.D. thesis, "IoT: Security of Devices and User Data".
+    Submitted my Ph.D. thesis, "The Internet of Things: Securing Devices and User Data".
 - date: 2018-05-06
   text: >-
     Paper accepted by IEEE TrustCom '18 on permission analysis of health and fitness apps in IoT programming frameworks.
